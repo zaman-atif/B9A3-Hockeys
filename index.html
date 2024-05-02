@@ -26,6 +26,67 @@
 
 <body class="font-manrope">
     <header>
+        <!-- Navbar section  -->
+        <section class="container mx-auto mb-12">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Item 1</a></li>
+                            <li>
+                                <a>Parent</a>
+                                <ul class="p-2">
+                                    <li><a>Submenu 1</a></li>
+                                    <li><a>Submenu 2</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Item 3</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost  font-extrabold text-xl lg:text-3xl">Hockey<span class="text-[#FF4240]">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Pages</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end gap-3">
+                    <svg class="24.000000 hidden lg:flex" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <desc>
+                            Created with Pixso.
+                        </desc>
+                        <defs>
+                            <clipPath id="clip5_6">
+                                <rect id="Frame" width="24.000000" height="24.000000" fill="white" fill-opacity="0" />
+                            </clipPath>
+                        </defs>
+                        <rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0" />
+                        <g clip-path="url(#clip5_6)">
+                            <path id="Vector"
+                                d="M3.53 12.67C3.88 13.52 4.4 14.29 5.05 14.94C5.7 15.59 6.47 16.11 7.32 16.46C8.17 16.81 9.08 17 10 17C10.91 17 11.82 16.81 12.67 16.46C13.52 16.11 14.29 15.59 14.94 14.94C15.59 14.29 16.11 13.52 16.46 12.67C16.81 11.82 17 10.91 17 10C17 9.08 16.81 8.17 16.46 7.32C16.11 6.47 15.59 5.7 14.94 5.05C14.29 4.4 13.52 3.88 12.67 3.53C11.82 3.18 10.91 3 10 3C9.08 3 8.17 3.18 7.32 3.53C6.47 3.88 5.7 4.4 5.05 5.05C4.4 5.7 3.88 6.47 3.53 7.32C3.18 8.17 3 9.08 3 10C3 10.91 3.18 11.82 3.53 12.67Z"
+                                stroke="#89898B" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                            <path id="Vector" d="M21 21L15 15" stroke="#89898B" stroke-opacity="1.000000" stroke-width="1.500000"
+                                stroke-linejoin="round" stroke-linecap="round" />
+                        </g>
+                    </svg >
+
+                    <a class="btn bg-[#FF4240] rounded-lg text-white font-bold text-lg lg:text-xl ">Get Ticket</a>
+                </div>
+            </div>
+        </section>
         <!-- Banner Section  -->
         <section class="container mx-auto my-12">
             <div class="carousel w-full h-[70vh]">
@@ -62,7 +123,8 @@
             <div class="space-x-5 space-y-10">
                 <div class="divider"></div>
                 <h1 class="text-[#131318] font-extrabold text-3xl mb-6 text-center">Professional Hockeys Club</h1>
-                <p class="text-base font-medium text-center ">Experience the thrill of the ice with our Professional Hockey
+                <p class="text-base font-medium text-center ">Experience the thrill of the ice with our Professional
+                    Hockey
                     Club section.</p>
                 <div class="divider"></div>
             </div>
@@ -70,25 +132,29 @@
             <div class="flex flex-col items-center justify-between lg:flex-row gap-8 my-12 ">
                 <!-- Card 1  -->
                 <div class="flex  space-y-4 flex-col justify-center items-center">
-                    <div class="radial-progress  text-[#FF4240] font-extrabold text-2xl text-center" style="--value:87;" role="progressbar">87%</div>
+                    <div class="radial-progress  text-[#FF4240] font-extrabold text-2xl text-center" style="--value:87;"
+                        role="progressbar">87%</div>
                     <p class="font-semibold text-xl text-[#131318]">Prayer Facility</p>
                     <p class="text-[#13131899] font-normal text-base">Exclusive prayer facility in the area for you</p>
                 </div>
                 <!-- Card 2  -->
                 <div class="flex  space-y-4 flex-col justify-center items-center">
-                    <div class="radial-progress  text-[#49D293] font-extrabold text-2xl text-center" style="--value:95;" role="progressbar">95%</div>
+                    <div class="radial-progress  text-[#49D293] font-extrabold text-2xl text-center" style="--value:95;"
+                        role="progressbar">95%</div>
                     <p class="font-semibold text-xl text-[#131318]">Experienced Coach</p>
                     <p class="text-[#13131899] font-normal text-base">Experienced Coach for training you</p>
                 </div>
                 <!-- Card 3  -->
                 <div class="flex  space-y-4 flex-col justify-center items-center">
-                    <div class="radial-progress  text-[#FFB546] font-extrabold text-2xl text-center" style="--value:90;" role="progressbar">90%</div>
+                    <div class="radial-progress  text-[#FFB546] font-extrabold text-2xl text-center" style="--value:90;"
+                        role="progressbar">90%</div>
                     <p class="font-semibold text-xl text-[#131318]">Senior Player</p>
                     <p class="text-[#13131899] font-normal text-base">Senior Players in the area for you</p>
                 </div>
                 <!-- Card 4  -->
                 <div class="flex  space-y-4 flex-col justify-center items-center">
-                    <div class="radial-progress  text-[#4C8DF1] font-extrabold text-2xl text-center" style="--value:80;" role="progressbar">80%</div>
+                    <div class="radial-progress  text-[#4C8DF1] font-extrabold text-2xl text-center" style="--value:80;"
+                        role="progressbar">80%</div>
                     <p class="font-semibold text-xl text-[#131318]">Training Ground</p>
                     <p class="text-[#13131899] font-normal text-base">Exclusive Training Ground for you</p>
                 </div>
@@ -99,10 +165,11 @@
     <footer class="footer flex flex-col lg:flex-row justify-between items-center  p-10 bg-[#131318] text-white">
         <aside class="flex flex-col items-center ">
             <h1 class="font-extrabold text-3xl mb-4">Get In Touch</h1>
-            <p class="text-[#FFFFFF99] font-medium text-base mb-5">Get in Touch with us anytime with the following links provided below</p>
+            <p class="text-[#FFFFFF99] font-medium text-base mb-5">Get in Touch with us anytime with the following links
+                provided below</p>
             <div class="flex items-center gap-3">
-                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                     <desc>
                         Created with Pixso.
                     </desc>
@@ -115,50 +182,52 @@
                     <g clip-path="url(#clip11_650)">
                         <path id="Vector"
                             d="M21.75 17.25C21.75 17.84 21.51 18.41 21.09 18.84C20.66 19.26 20.09 19.5 19.5 19.5L4.5 19.5C3.9 19.5 3.33 19.26 2.9 18.84C2.48 18.41 2.25 17.84 2.25 17.25L2.25 6.75C2.25 6.15 2.48 5.58 2.9 5.15C3.33 4.73 3.9 4.5 4.5 4.5L19.5 4.5C20.09 4.5 20.66 4.73 21.09 5.15C21.51 5.58 21.75 6.15 21.75 6.75L21.75 17.25ZM21.75 6.75L21.75 6.99C21.75 7.37 21.65 7.75 21.46 8.09C21.27 8.42 21 8.7 20.68 8.9L13.18 13.52C12.82 13.74 12.41 13.85 12 13.85C11.58 13.85 11.17 13.74 10.82 13.52L3.32 8.9C2.99 8.7 2.72 8.42 2.53 8.09C2.34 7.75 2.24 7.37 2.25 6.99L2.25 6.75"
-                            stroke="#FF4240" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
+                            stroke="#FF4240" stroke-opacity="1.000000" stroke-width="1.500000"
+                            stroke-linejoin="round" />
                     </g>
                 </svg>
                 <p class="font-medium text-base text-[#FFFFFFCC]">hockeys@support.com</p>
             </div>
             <div class="flex items-center gap-3">
-            <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <desc>
-                    Created with Pixso.
-                </desc>
-                <defs>
-                    <clipPath id="clip11_659">
-                        <rect id="Frame" width="24.000000" height="24.000000" fill="white" fill-opacity="0" />
-                    </clipPath>
-                </defs>
-                <rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0" />
-                <g clip-path="url(#clip11_659)">
-                    <path id="Vector"
-                        d="M17.25 21.75L19.5 21.75C20.09 21.75 20.66 21.51 21.09 21.09C21.51 20.66 21.75 20.09 21.75 19.5L21.75 18.12C21.75 17.61 21.39 17.16 20.89 17.03L16.47 15.93C16.03 15.82 15.57 15.98 15.3 16.34L14.33 17.64C14.05 18.01 13.56 18.18 13.12 18.02C11.48 17.41 9.99 16.46 8.76 15.23C7.53 14 6.58 12.51 5.97 10.87C5.81 10.43 5.98 9.94 6.35 9.66L7.65 8.69C8.01 8.42 8.17 7.96 8.06 7.52L6.96 3.1C6.9 2.85 6.76 2.64 6.56 2.48C6.36 2.33 6.12 2.25 5.87 2.25L4.5 2.25C3.9 2.25 3.33 2.48 2.9 2.9C2.48 3.33 2.25 3.9 2.25 4.5L2.25 6.75C2.25 15.03 8.96 21.75 17.25 21.75Z"
-                        stroke="#FF4240" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" />
-                </g>
-            </svg>
+                <svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <desc>
+                        Created with Pixso.
+                    </desc>
+                    <defs>
+                        <clipPath id="clip11_659">
+                            <rect id="Frame" width="24.000000" height="24.000000" fill="white" fill-opacity="0" />
+                        </clipPath>
+                    </defs>
+                    <rect id="Frame" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0" />
+                    <g clip-path="url(#clip11_659)">
+                        <path id="Vector"
+                            d="M17.25 21.75L19.5 21.75C20.09 21.75 20.66 21.51 21.09 21.09C21.51 20.66 21.75 20.09 21.75 19.5L21.75 18.12C21.75 17.61 21.39 17.16 20.89 17.03L16.47 15.93C16.03 15.82 15.57 15.98 15.3 16.34L14.33 17.64C14.05 18.01 13.56 18.18 13.12 18.02C11.48 17.41 9.99 16.46 8.76 15.23C7.53 14 6.58 12.51 5.97 10.87C5.81 10.43 5.98 9.94 6.35 9.66L7.65 8.69C8.01 8.42 8.17 7.96 8.06 7.52L6.96 3.1C6.9 2.85 6.76 2.64 6.56 2.48C6.36 2.33 6.12 2.25 5.87 2.25L4.5 2.25C3.9 2.25 3.33 2.48 2.9 2.9C2.48 3.33 2.25 3.9 2.25 4.5L2.25 6.75C2.25 15.03 8.96 21.75 17.25 21.75Z"
+                            stroke="#FF4240" stroke-opacity="1.000000" stroke-width="1.500000"
+                            stroke-linejoin="round" />
+                    </g>
+                </svg>
 
                 <p class="font-medium text-base text-[#FFFFFFCC]">(+62) 123-321-543</p>
             </div>
         </aside>
-       <div class="grid grid-cols-2 gap-6">
-        <nav class="font-medium text-[#FFFFFF99] text-base">
-            <h6 class=" font-bold text-white text-lg ">Company</h6>
-            <a class="link link-hover block">About Us</a>
-            <a class="link link-hover block">Leadership</a>
-            <a class="link link-hover block">Careers</a>
-            <a class="link link-hover block">News & Articles</a>
-            <a class="link link-hover block">Legal Notice</a>
-        </nav>
-        <nav class="font-medium text-[#FFFFFF99] text-base">
-            <h6 class=" font-bold text-white text-lg ">Support</h6>
-            <a class="link link-hover block">Help Center</a>
-            <a class="link link-hover block">FAQ</a>
-            <a class="link link-hover block">Ticket Support</a>
-            <a class="link link-hover block">Contact Us</a>
-        </nav>
-       </div>
+        <div class="grid grid-cols-2 gap-6">
+            <nav class="font-medium text-[#FFFFFF99] text-base">
+                <h6 class=" font-bold text-white text-lg ">Company</h6>
+                <a class="link link-hover block">About Us</a>
+                <a class="link link-hover block">Leadership</a>
+                <a class="link link-hover block">Careers</a>
+                <a class="link link-hover block">News & Articles</a>
+                <a class="link link-hover block">Legal Notice</a>
+            </nav>
+            <nav class="font-medium text-[#FFFFFF99] text-base">
+                <h6 class=" font-bold text-white text-lg ">Support</h6>
+                <a class="link link-hover block">Help Center</a>
+                <a class="link link-hover block">FAQ</a>
+                <a class="link link-hover block">Ticket Support</a>
+                <a class="link link-hover block">Contact Us</a>
+            </nav>
+        </div>
         <nav class="font-medium text-[#FFFFFF99] text-base">
             <h6 class=" font-bold text-white text-lg ">Services</h6>
             <a class="link link-hover">Academy</a>
